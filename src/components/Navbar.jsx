@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = 'public/VIKAS_KUMAR_RESUME.pdf';
+    const resumeUrl = 'https://vikaskumarrr9.github.io/vikas-portfolio/VIKAS_KUMAR_RESUME.pdf';
     window.open(resumeUrl);
   };
 
